@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@test.com",
+      "password": "teste123",
+      "blocked": false,
+      "failureLogin": 0
+    },
+    {
+      "id": 2,
+      "email": "user@test.com",
+      "password": "teste123",
+      "blocked": false,
+      "failureLogin": 0
+    },
+    {
+      "id": 3,
+      "email": "blockeduser@test.com",
+      "password": "teste123",
+      "blocked": true,
+      "failureLogin": 5
+    },
+    {
+      "id": 4,
+      "email": "emailfortest@test.com",
+      "password": "teste123",
+      "blocked": false,
+      "failureLogin": 0
+    }
+  ]
+}
